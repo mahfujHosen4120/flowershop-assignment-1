@@ -107,6 +107,8 @@
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-right: 240px;
+    margin-left: 240px;
 
 
 }
@@ -150,13 +152,89 @@
 
 }
 
-.support {
-
+.flower-name {
     display: flex;
-    justify-content: space-around;
-    margin-top: 128px;
-    
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-left: 381px;
+    margin-right: 381px;
+    row-gap: 307px;
+
 
 }
 
+.support {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 128px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    height: 320px;
+    margin-left: 240px;
+    margin-right: 240px;
 
+}
+
+.supportitems {
+
+    justify-content: space-between;
+}
+
+.icon1 {
+
+
+    width: 88px;
+    height: 88px;
+    margin-top: 86px;
+    margin-left: 300px;
+
+}
+
+.icon2 {
+
+
+    width: 88px;
+    height: 88px;
+    row-gap: 300px;
+
+
+}
+
+.icon3 {
+
+
+    width: 88px;
+    height: 88px;
+    row-gap: 300px;
+
+
+}
+
+.icon-heading1 {
+
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    margin-top: 24px;
+    row-gap: 100px;
+
+}
+.icon-heading2 {
+
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    margin-top: 24px;
+
+}
+.icon-heading3 {
+
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    margin-top: 24px;
+    row-gap: 100px;
+
+}
