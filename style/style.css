@@ -3,6 +3,11 @@
     padding: 0px;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
 /* bannar section */
 .bannar {
     width: 1920px;
@@ -11,6 +16,7 @@
     display: flex;
     justify-content: space-between;
     background: rgba(229, 84, 115, 0.10);
+    background-repeat: no-repeat;
 
 }
 
@@ -25,9 +31,7 @@
     font-family: Lato;
     font-size: 80px;
     font-style: normal;
-    /* font-weight: 800; */
     line-height: normal;
-    /* padding: 197px; */
     margin-top: 197px;
     margin-left: 240px;
 
@@ -80,6 +84,18 @@
 }
 
 /* main section */
+main {
+
+    margin: auto;
+
+
+}
+
+.Featured-Flowers {
+
+
+    background: rgba(229, 84, 115, 0.05);
+}
 
 .flower-title {
     color: #272727;
@@ -147,7 +163,9 @@
 }
 
 .pic2 {
-
+    width: 370px;
+    height: 370px;
+    flex-shrink: 0;
     margin: 117px 47px 0px 47px;
 
 }
@@ -221,6 +239,7 @@
     row-gap: 100px;
 
 }
+
 .icon-heading2 {
 
     color: rgba(39, 39, 39, 0.80);
@@ -229,6 +248,7 @@
     margin-top: 24px;
 
 }
+
 .icon-heading3 {
 
     color: rgba(39, 39, 39, 0.80);
