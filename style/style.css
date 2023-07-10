@@ -7,16 +7,16 @@
 .bannar {
     width: 1920px;
     height: 850px;
-     align-items: center;
-     display: flex;
+    align-items: center;
+    display: flex;
     justify-content: space-between;
-    background: rgba(229, 84, 115, 0.10);   
-    
+    background: rgba(229, 84, 115, 0.10);
+
 }
 
-.bannar-items{
+.bannar-items {
 
-    margin:32px;
+    margin: 32px;
 }
 
 .heading {
@@ -30,7 +30,7 @@
     /* padding: 197px; */
     margin-top: 197px;
     margin-left: 240px;
-    
+
 
 }
 
@@ -45,10 +45,11 @@
     margin-top: 32px;
     margin-left: 240px;
 
-        
+
 
 
 }
+
 .btn-primary {
     color: #FFF;
     font-family: Lato;
@@ -63,6 +64,7 @@
     margin-bottom: 147px;
 
 }
+
 .btn-primary :hover {
     color: rgb(10, 231, 194);
 }
@@ -72,7 +74,89 @@
 
     width: 635px;
     height: 800px;
-     margin-top: 50px;
+    margin-top: 50px;
     margin-right: 240px;
 
 }
+
+/* main section */
+
+.flower-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 130px;
+}
+
+
+.description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    padding-top: 24px;
+    padding-bottom: 48px;
+
+}
+
+.flowers-container {
+
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+
+}
+
+.box1 {
+    padding: 50px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+
+}
+
+.box2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+
+}
+
+.box3 {
+
+    padding: 50px 50px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+
+}
+
+.pic {
+
+    width: 310px;
+    height: 428px;
+    flex-shrink: 0;
+    margin: 110px 78px 0px 78px;
+
+
+
+}
+
+.pic2 {
+
+    margin: 117px 47px 0px 47px;
+
+}
+
+.support {
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 128px;
+    
+
+}
+
+
