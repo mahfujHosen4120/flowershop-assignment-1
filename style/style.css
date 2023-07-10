@@ -196,7 +196,7 @@ main {
 }
 
 .supportitems {
-
+    align-items: center;
     justify-content: space-between;
 }
 
