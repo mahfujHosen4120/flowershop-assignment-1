@@ -2,3 +2,77 @@
     margin: 0px;
     padding: 0px;
 }
+
+/* bannar section */
+.bannar {
+    width: 1920px;
+    height: 850px;
+     align-items: center;
+     display: flex;
+    justify-content: space-between;
+    background: rgba(229, 84, 115, 0.10);   
+    
+}
+
+.bannar-items{
+
+    margin:32px;
+}
+
+.heading {
+
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    /* font-weight: 800; */
+    line-height: normal;
+    /* padding: 197px; */
+    margin-top: 197px;
+    margin-left: 240px;
+    
+
+}
+
+.about-flower {
+
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 32px;
+    margin-left: 240px;
+
+        
+
+
+}
+.btn-primary {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    display: inline-flex;
+    padding: 20px 43px;
+    border-radius: 10px;
+    border-color: #E55473;
+    background: #E55473;
+    margin-top: 32px;
+    margin-left: 240px;
+    margin-bottom: 147px;
+
+}
+.btn-primary :hover {
+    color: rgb(10, 231, 194);
+}
+
+
+.bannar-img {
+
+    width: 635px;
+    height: 800px;
+     margin-top: 50px;
+    margin-right: 240px;
+
+}
