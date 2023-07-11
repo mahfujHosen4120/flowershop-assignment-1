@@ -134,7 +134,7 @@ main {
 
     display: flex;
     inline-size: auto;
-    background-color: #FFF;
+    /* background-color: #FFF; */
     /* padding: 0px 24px 0px 24px; */
 
 }
@@ -427,15 +427,7 @@ span {
 
 }
 
-/* .footer-column{
-    align-items: center;
-    width: 700px;
-height: 64px;
-flex-shrink: 0;
-border-radius: 8px;
-background: #FFF;
-} */
-/* footer section */
+
 .footer-back {
 
     width: 1922px;
